@@ -396,3 +396,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+#ARCHIVOS QUE VAMOS A IGNORAR
+IMG_Games/

@@ -1,0 +1,40 @@
+ 
+h1,h2,h3,h4{
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 250;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.carousel-inner {
+    height: auto;
+    overflow: hidden; /* Oculta cualquier cosa que se salga del contenedor */
+  }
+body{
+    align-items: center;
+}
+  .carousel-inner img {
+    height: 100%;
+    width: 10;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+  }
+
+#carouselFade{
+    width: 50%;
+
+}
+.img-1{
+    align-items: center;
+    align-self: start;
+    align-content: center;
+}
+.img-2{
+    align-items: center;
+    align-self: start;
+    align-content: center;
+    animation: alternate;
+} 
