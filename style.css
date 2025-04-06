@@ -1,19 +1,36 @@
- 
-h1,h2,h3,h4{
-    text-align: center;
-    font-family: "Outfit", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 250;
-    font-size: 30px;
-    font-style: normal;
+body{
+  align-items: center;
 }
-
+/* LA CABEZERA */
+header{
+  background-color: rgba(61, 61, 61, 0.301);
+}
 .carousel-inner {
     height: auto;
     overflow: hidden; /* Oculta cualquier cosa que se salga del contenedor */
   }
-body{
-    align-items: center;
+
+h1{
+   text-align: center;
+   font-family: "Outfit", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 350;
+   font-size: 40px;
+   font-style: normal;
+}
+h2{
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-weight: 200;
+  font-size: 35px;
+  font-style: normal;
+}
+h3{
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-weight: 200;
+  font-size: 30px;
+  font-style: normal;
 }
   .carousel-inner img {
     height: 100%;
@@ -23,15 +40,21 @@ body{
     margin: 0 auto;
   }
 
-#carouselFade{
+/* CAROUSEL DE LAS FOTOS DE MIS JUEGOS
+AQUI LO MANIPULO EL TAMAÑO DEL CAROUSEL, ESTABA MANIPULANDOLO POR OTRA CLASE
+Y HACERLO DESDE AQUI ES MAS CONVENIENTE DE MOMENTO :P */
+#carouselExampleFade{
+    
+    margin: auto;
     width: 50%;
-
 }
+
 .img-1{
     align-items: center;
     align-self: start;
     align-content: center;
 }
+
 .img-2{
     align-items: center;
     align-self: start;
