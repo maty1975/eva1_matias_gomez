@@ -1,8 +1,11 @@
+
+/* ETIQUETAS */
 body{
   align-items: center;
 }
 /* LA CABEZERA */
 header{
+  padding-top: 3%;
   background-color: rgba(61, 61, 61, 0.301);
 }
 
@@ -10,23 +13,9 @@ footer{
   color: white;
   display: flex;
   margin-top: 8%;
- 
-  background-color: darkslategrey;
+ /* fondo de abajo */
+  background-color: dimgray;
 }
-.carousel-inner {
-    height: auto;
-    overflow: hidden; /* Oculta cualquier cosa que se salga del contenedor */
-  }
-.text-izquierda{
-    text-align: left;
-  }
-.text-centrar{
-    text-align: center;
-  }
-.text-derecha{
-  text-align: right;
-}
-
 h1{
    font-family: "Outfit", sans-serif;
    font-optical-sizing: auto;
@@ -46,14 +35,51 @@ h3{
   font-size: 30px;
   font-style: normal;
 }
-
-  .carousel-inner img {
+/* CLASES */
+.carousel-inner {
+    height: auto;
+    overflow: hidden; /* Oculta cualquier cosa que se salga del contenedor */
+  }
+.text-izquierda{
+    text-align: left;
+  }
+.text-centrar{
+    text-align: center;
+  }
+.text-derecha{
+  text-align: right;
+}
+.carousel-inner img {
     height: 100%;
     width: 10;
     object-fit: contain;
     display: block;
     margin: 0 auto;
   }
+  /* COLOR DE LOS LINK */
+  .nav-link{
+    color: grey;
+    font-family: "Outfit", sans-serif;
+    font-weight: 350;
+    font-size: 25px;
+    font-style: normal;
+  }
+
+  /* EL HOVER TE PERMITE CAMBIAR CUANDO PASAS POR ENCIMA DEL LINK */
+  .nav-link:hover{
+    color: white;
+    background-color: rgb(163, 163, 163)
+  }
+  /* EL ACTIVE DETECTA EL CLICK */
+  .nav-link:active{
+    color: black;
+  }
+.my_name{
+  font-size: large;
+}
+
+/* -------------------------------------------------------------------------- */  
+/* IDs */
 
 /* CAROUSEL DE LAS FOTOS DE MIS JUEGOS
 AQUI LO MANIPULO EL TAMAÑO DEL CAROUSEL, ESTABA MANIPULANDOLO POR OTRA CLASE
