@@ -5,14 +5,15 @@ body{
 }
 /* LA CABEZERA */
 header{
-  padding-top: 3%;
+  
+  padding-top: 1%;
   background-color: rgba(61, 61, 61, 0.301);
 }
 
 footer{
   color: white;
   display: flex;
-  margin-top: 8%;
+  margin-top: 2%;
  /* fondo de abajo */
   background-color: dimgray;
 }
@@ -35,6 +36,7 @@ h3{
   font-size: 30px;
   font-style: normal;
 }
+/* -------------------------------------- */
 /* CLASES */
 .carousel-inner {
     height: auto;
@@ -56,15 +58,16 @@ h3{
     display: block;
     margin: 0 auto;
   }
+
   /* COLOR DE LOS LINK */
-  .nav-link{
+.nav-link{
     color: grey;
     font-family: "Outfit", sans-serif;
     font-weight: 350;
     font-size: 25px;
     font-style: normal;
   }
-
+  /* BOTONES DEL PANEL */
   /* EL HOVER TE PERMITE CAMBIAR CUANDO PASAS POR ENCIMA DEL LINK */
   .nav-link:hover{
     color: white;
@@ -78,6 +81,10 @@ h3{
   font-size: large;
 }
 
+
+.carousel-control-prev:hover{
+  
+}
 /* -------------------------------------------------------------------------- */  
 /* IDs */
 
