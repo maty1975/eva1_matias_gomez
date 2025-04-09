@@ -64,7 +64,9 @@ h4{
     display: block;
     margin: 0 auto;
   }
-
+.carousel-item{
+  
+}
   /* COLOR DE LOS LINK */
 .nav-link{
     color: grey;
@@ -75,20 +77,26 @@ h4{
   }
   /* BOTONES DEL PANEL */
   /* EL HOVER TE PERMITE CAMBIAR CUANDO PASAS POR ENCIMA DEL LINK */
-  .nav-link:hover{
+.nav-link:hover{
     color: white;
     background-color: rgb(163, 163, 163)
   }
   /* EL ACTIVE DETECTA EL CLICK */
-  .nav-link:active{
+.nav-link:active{
     color: black;
   }
 .my_name{
   font-size: large;
 }
 
-
-.carousel-control-prev:hover{
+.card-group{
+  
+  max-width: 80%;
+  width: 100%;
+  text-align: center;
+}
+.carousel slide{
+  text-align: left;
   
 }
 /* -------------------------------------------------------------------------- */  
@@ -97,6 +105,8 @@ h4{
 /* CAROUSEL DE LAS FOTOS DE MIS JUEGOS
 AQUI LO MANIPULO EL TAMAÑO DEL CAROUSEL, ESTABA MANIPULANDOLO POR OTRA CLASE
 Y HACERLO DESDE AQUI ES MAS CONVENIENTE DE MOMENTO :P */
+
+
 #carouselExampleFade{
     
     margin: auto;
