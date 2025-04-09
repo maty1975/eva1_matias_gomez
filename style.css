@@ -5,7 +5,6 @@ body{
 }
 /* LA CABEZERA */
 header{
-  
   padding-top: 1%;
   background-color: rgba(61, 61, 61, 0.301);
 }
@@ -32,8 +31,15 @@ h2{
 }
 h3{
   font-family: "Outfit", sans-serif;
-  font-weight: 200;
+  font-weight: 150;
   font-size: 30px;
+  font-style: normal;
+}
+
+h4{
+  font-family: "Outfit", sans-serif;
+  font-weight: 200;
+  font-size: 25px;
   font-style: normal;
 }
 /* -------------------------------------- */
@@ -94,6 +100,6 @@ Y HACERLO DESDE AQUI ES MAS CONVENIENTE DE MOMENTO :P */
 #carouselExampleFade{
     
     margin: auto;
-    width: 40%;
+    width: 55%;
 }
 
