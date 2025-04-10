@@ -1,7 +1,7 @@
 
 /* VARIABLES REUTILIZABLES */
 var correito = document.querySelector(".correo");
-if  (correito) correito.innerHTML = "noobmaster96@gmail.com"
+if  (correito) correito.innerHTML = "matiasgomezaranda@gmail.com"
 
 var s_juegos = document.querySelector(".s_proyectos")
 if(s_juegos) s_juegos.innerHTML = "Proyectos"
