@@ -398,4 +398,4 @@ FodyWeavers.xsd
 *.sln.iml
 
 #ARCHIVOS QUE VAMOS A IGNORAR
-IMG/
+#IMG/
