@@ -1,5 +1,5 @@
 
-
+/* VARIABLES REUTILIZABLES */
 var correito = document.querySelector(".correo");
 if  (correito) correito.innerHTML = "noobmaster96@gmail.com"
 
